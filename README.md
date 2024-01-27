@@ -78,7 +78,7 @@ For example:
 For example:
 `functions.js`
 
-```json
+```
 const sayHi = (name) => {
   console.log(`Hello there ${name}`);
 };
@@ -88,7 +88,7 @@ module.exports = sayHi;
 
 `names.js`
 
-```json
+```
 //local
 const secret = 'SUPER SECRET';
 //share
@@ -100,7 +100,7 @@ module.exports = { john, peter };
 
 `app.js`
 
-```json
+```
 /*
 Common JS - Every file is module(by default)
 Module - Encapsulated Module(only share minimum)
@@ -117,7 +117,7 @@ sayHi(names.peter);
 
 Here is the example
 
-```json
+```
 module.exports.items =['item1', 'item2'];
 const person ={
   name:'Midhun'
@@ -140,7 +140,7 @@ To see the node js documentation, refer this one [`https://nodejs.org/docs/lates
 
 Example:
 
-```json
+```
 const os = require('os');
 //info about current user
 const user = os.userInfo();
@@ -164,7 +164,7 @@ console.log(currentOS);
 
 Example:
 
-```json
+```
 const path = require('path');
 
 console.log(path.sep);
